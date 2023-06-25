@@ -1,0 +1,67 @@
+@media (min-width: 600px) {
+
+
+.nav{
+    display: flex ;
+    font-size: 20px;
+    height: 70px;
+    margin: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    display: flex;
+    margin-top: 35px;
+}
+.avatar{
+    height: 40px;
+    
+}
+.search{
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+}
+
+.search-btn{
+    margin-top: 10px;
+}
+
+}
+
+
+
+
+@media (max-width: 600px) {
+    .nav{
+        display: flex ;
+        font-size: 35px;
+        height: 30px;
+        margin: 13px;
+
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .avatar{
+        height: 40px;
+        
+    }
+    .noti{
+        height: 40px;
+    }
+    .search{
+        margin-top: 5px;
+        border-radius: 20px;
+        width: 100px;
+        height: 35px;
+    }
+    
+    .search-btn{
+        margin-top: 10px;
+    }
+    .right{
+        display: flex ;
+        margin-top: 45px;
+    }
+    }

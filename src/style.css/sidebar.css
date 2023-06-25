@@ -1,0 +1,95 @@
+@media (min-width: 1023px) {
+    .dashboard{
+        display: flex;
+    }
+    .sidebar {
+        background-color: black;
+        height: 95vh;
+        width: 15%;
+        border-radius: 25px;
+        margin: 20px;
+    }
+    .header{
+        color: white;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 45px;
+        margin-top: 75px;
+        text-align: center;
+    }
+    .sidebar-page{
+        margin-top: 35px;
+        color: aliceblue;
+        margin-left: 28px;
+        font-size: 18px;
+    }
+    .footer{
+        height: 400px;
+     }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .dashboard{
+        display: flex;
+    }
+    .sidebar {
+        background-color: black;
+        height: 95vh;
+        width: 27%;
+        border-radius: 25px;
+        margin: 20px;
+    }
+    .header{
+        color: white;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;;
+        margin-top: 25px;
+        text-align: center;
+
+    }
+    .sidebar-page{
+        margin-top: 35px;
+        color: aliceblue;
+        margin-left: 28px;
+        font-size: 18px;
+    }
+    .footer{
+       height: 500px;
+    }
+
+  }
+  
+
+@media (max-width: 768px) {
+    .sidebar {
+        background-color: black;
+        height: 100%;
+        width: auto;
+        border-radius: 22px;
+        margin: 10px;
+        color: white;
+    
+    }
+    .header{
+        color: white;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .sidebar-page{
+      
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 280px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 110px;
+        margin-top: 15px;
+    }
+    .footer{
+        margin-top: 5px;
+     }
+
+}

@@ -1,0 +1,49 @@
+{
+    "clothing": [
+        {
+            "id": 1,
+            "title": "Basic Tees",
+            "color": "Green",
+            "stock": 55
+        },
+        {
+            "id": 2,
+            "title": "Custom Short Pants",
+            "color": "yellow",
+            "stock": 31
+        },
+        {
+            "id": 3,
+            "title": "Super Hoodies",
+            "color": "red",
+            "stock": 14
+        }
+    ],
+"data" : [
+    {
+        "name": "",
+        "Guest": 200,
+        "User": 100
+      },
+      {
+        "name": "Week 1",
+        "Guest": 300,
+        "User": 350
+      },
+      {
+        "name": "Week 2",
+        "Guest": 200,
+        "User": 100
+      },
+      {
+        "name": "Week 3",
+        "Guest": 278,
+        "User": 400
+      },
+      {
+        "name": "Week 4",
+        "Guest": 400,
+        "User": 280
+      }
+]
+}

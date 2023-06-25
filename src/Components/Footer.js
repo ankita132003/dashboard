@@ -11,7 +11,7 @@ function Footer() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch("https://www.jsonkeeper.com/b/9GSC");
+            const response = await fetch("https://api.npoint.io/9a391e715a154b844f65/clothing");
             const jsonData = await response.json();
             setData(jsonData);
         } catch (error) {

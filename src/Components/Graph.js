@@ -11,7 +11,7 @@ function Graph() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("https://jsonkeeper.com/b/ORJL");
+      const response = await fetch("https://api.npoint.io/9a391e715a154b844f65/data");
       const jsonData = await response.json();
       setData(jsonData);
     } catch (error) {

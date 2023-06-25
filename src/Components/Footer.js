@@ -11,7 +11,7 @@ function Footer() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch("http://localhost:4000/clothing");
+            const response = await fetch("https://www.jsonkeeper.com/b/9GSC");
             const jsonData = await response.json();
             setData(jsonData);
         } catch (error) {
